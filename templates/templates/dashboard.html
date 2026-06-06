@@ -1,0 +1,17 @@
+<h1>Dashboard</h1>
+
+<form method="post">
+    <input type="text" name="name" placeholder="Name">
+
+    <br><br>
+
+    <input type="text" name="country" placeholder="Country">
+
+    <br><br>
+
+    <button type="submit">Generate</button>
+</form>
+
+{% if result %}
+<p>{{ result }}</p>
+{% endif %}
